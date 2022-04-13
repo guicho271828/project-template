@@ -1,0 +1,18 @@
+* XXX
+
+This repository contains the source code of XXX.
+
+* Setup
+
+XXX requires anaconda / miniconda, available from [[https://docs.conda.io/en/latest/miniconda.html][here]].
+
+#+begin_src
+git clone https://github.com/guicho271828/XXX.git
+cd XXX
+source install.sh
+#+end_src
+
+=./install.sh= or =(ba)sh ./install.sh= does not work; =source install.sh= is necessary.
+The script downloads dependencies outside pip and conda too.
+
+** Gallery

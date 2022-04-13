@@ -1,0 +1,47 @@
+
+dependencies:
+  # Roswell dependencies
+  - curl
+  - libcurl
+  - libzlib
+  - compilers
+  - automake
+
+  # fast downward dependencies
+  - cmake
+  - flex
+  - bison
+
+  # python dependencies
+  - python=3.9
+  - pip
+
+  # deep learning depedencies
+  - pytorch::pytorch
+  - cudatoolkit=11.3
+
+  # experiment dependencies
+  - parallel
+  - gnuplot
+  - sqlite>=3.35                 # need 3.35 which has sqrt function
+
+  # other latplan-specific dependencies (lisp side)
+  - libmagic
+
+  - pip:
+      - numpy
+      - tensorboardX
+      - tqdm
+      - ansicolors
+      - tensorboard
+      - pandas
+      - scipy
+      - sklearn
+      - matplotlib
+      - pytorch-lightning
+      - imageio
+      - scikit-image
+      - sklearn
+      - pandas
+      - -e .
+
