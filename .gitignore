@@ -1,6 +1,11 @@
 *~
 #*
 *.pyc
+*.log
+*.err
+events*
+*.json
 /build/
 /dist/
 /*.egg-info/
+.roswell/
